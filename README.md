@@ -13,9 +13,9 @@
   The repository contains 3 different implementation techniques :
   
   1. **image-classifier-project-with-sgdr-warm-restarts**
-      This is based on the following paper : https://arxiv.org/abs/1608.03983
-      The basic idea contains the following points :
-      a.  Reset the learning rate every so many iterations so that the model may be able to more easily pop out of a local minimum if it appears to be stuck.
+      This is based on the following paper : https://arxiv.org/abs/1608.03983  
+      The basic idea contains the following points :  
+      a.  Reset the learning rate every so many iterations so that the model may be able to more easily pop out of a local minimum if it appears to be stuck.  
       b. We know we will most likely get closer to a global minimum the more iterations we do through our dataset, we need a way to lengthen the time spent decreasing our learning rate. Instead of restarting every epoch, we can lengthen the number of epochs in a multiplicative way so that the first cycle will decrease over the span of 1 epoch, the second over the span of 2 epochs, and the third using 4 epochs, etc. 
 
       
