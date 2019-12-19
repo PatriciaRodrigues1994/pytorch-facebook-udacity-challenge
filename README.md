@@ -3,7 +3,7 @@
 
    PyTorch implementation of a Deep learning network to identify 102 different types of flowers (developed for the PyTorch Scholarship Challenge).
 
-   The used data set contains images of flowers from 102 different species divided in a training set and a validation set.The images can be downloaded here: https://s3.amazonaws.com/content.udacity-data.com/courses/nd188/flower_data.zip
+   The used data set contains images of flowers from 102 different species divided in a training set and a validation set.The images can be downloaded [here] (https://s3.amazonaws.com/content.udacity-data.com/courses/nd188/flower_data.zip)
 
   In addition, the repository contains a utility for testing the performance of a model on the original flower dataset (http://www.robots.ox.ac.uk/~vgg/data/flowers/102/102flowers.tgz) or alternatively on a dataset obtained by downloading the first 10 resulting images from Google, querying it by the name of the flower categories.
   
